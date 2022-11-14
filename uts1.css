@@ -1,0 +1,195 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: sans-serif;
+}
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 8;
+
+}
+.navbar{
+	background-image: linear-gradient(to left,#FFCCCC, #FFFFCC,#FFE5CC);
+	padding: 0! !important;
+}
+.navbar-nav li{
+	padding: 0 10 px;
+}
+.navbar-nav li a{
+	color: #ffff !important;
+	font-weight: 600;
+}
+.fa-bars{
+	color: #ffff;
+	font-size: 30px !important;
+}
+#banner{
+	background-image: linear-gradient(to left,#FFCCCC, #FFFFCC,#FFE5CC);
+	/*background-image: url(bisaa.jpeg);*/
+	color: #0000;
+	padding-top: 5%;
+}
+.promo-tittle{
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 100px;
+	color: black;
+
+}
+.container p{
+	color: black;
+}
+.bottom-img{
+	width: 100%;
+}
+.img-fluid{
+	margin-bottom: 100px;
+}
+/pendidikan/
+#Pendidikan{
+	background-image: linear-gradient(to left,#FFCCCC, #FFFFCC,#FFE5CC);
+	padding: 80px 0;
+}
+.Pendidikan-img{
+	width: 100px;
+	margin-top: 20px;
+}
+.Pendidikan{
+	padding: 10px;
+}
+.Pendidikan h2{
+	padding: 5px;
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+.title::after{
+	content: '';
+	background: #7b1798;
+	height: 10px;
+	width: 150px;
+	margin-left: auto;
+	margin-top: 50px;
+	margin-right: auto;
+	display: block;
+	transform: translateY(-45px);
+}
+#Jadwalkuliah{
+	/background-image: linear-gradient(to right,#BC8F8F, #708090, #BC8F8F);/
+	background-image: linear-gradient(to left,#FFCCCC, #FFFFCC,#FFE5CC);
+	padding: 100px 0;
+
+}
+.Jadwalkuliah a{
+	/justify-content: center;/
+
+	margin-top: 20px;
+	margin-left: 100px;
+}
+
+#Aktivitas{
+	background-image: linear-gradient(to left,#FFCCCC, #FFFFCC,#FFE5CC);
+	padding: 80px 0;
+}
+.Aktivitas-img{
+	width: 100px;
+	margin-top: 20px;
+}
+.Aktivitas{
+	padding: 10px;
+}
+.Aktivitas h1{
+	padding: 5px;
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+
+.container-about{
+	background-image: url(bisaa.jpeg);
+	padding: 25px 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.container-about img{
+	border-radius: 0%;
+	height: 256px;
+	width: 270px;
+}
+/*hr.split{
+	width: 300px;
+	/height: 1px;/
+	background: black;
+	margin: 10px 0px;
+}*/
+.container-about .text {
+	/display: flex;/
+	/justify-content: space-around;/
+	text-align: center;
+	margin: 20px 0px;
+	font-size: 18px;
+}
+.container-about. text p {
+	width: 500px;
+	margin: 0px 40px;
+	font-size: 18px;
+	align-items: center;
+}
+.container-about img{
+	border-radius: 50%;
+	margin-left: 100;
+	height: 256px;
+	width: 270px;
+}
+
+/prestasi/
+.container-projek{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/background-image: linear-gradient(to left,#FFCCCC, #FFFFCC,#FFE5CC);/
+	/background-image: url(bisaa.jpeg);/
+	padding: 25 px 0px;
+}
+.container-projek .cards{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.container-projek .card{
+	width: 280px;
+	height: 300 px;
+	margin: 20px 20px;
+	display: flex;
+	zoom: 70%
+}
+.card img{
+	width: 278px;
+	height: 350px;
+}
+.card p{
+	display: flex;
+	align-items: center;
+	font-size: 24px;
+}
+/sosmed/
+#social-media{
+	background: black;
+	padding: 100px 0;
+}
+#social-media p{
+
+	font-size: 36px;
+	font-weight: 600;
+	margin-top: 30px;
+}
+.social-icons img{
+	width: 60px;
+	transition: 0.5s;
+}
+.social-icons a:hover img{
+	transform: translateY(-10px);
+}
